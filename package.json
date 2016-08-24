@@ -1,0 +1,22 @@
+{
+  "name": "movme",
+  "version": "1.0.0",
+  "description": "A simple video renderer based on ffmpeg v3.x.",
+  "main": "lib/renderer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anri Digholm",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.5.3",
+    "bluebird": "^3.4.1",
+    "boom": "^3.2.2",
+    "hapi": "^14.2.0",
+    "hoek": "^4.0.2",
+    "mimer": "^0.2.1",
+    "minimist": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "tcomb": "^3.2.12"
+  }
+}
